@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+			<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<style type="text/css">
+		.slider{ width:840px;  height:497px; padding:0 130px;  margin:0 auto;  position:relative; overflow:hidden; background:#000;  }
+	.slider .bd{ position:absolute; left:0; top:0; }
+	.slider .bd li{ overflow:hidden; }
+	.slider .bd li img{ display:block; width:840px; height:497px;    }
+	.slider .tempWrap{ padding:0 130px !important; /* 强制遮罩层显示2侧各130px */   }
+	.slider .bd ul{ margin-left:-840px !important;  }
+	.slider .pnBtn{ position:absolute; top:0; width:130px; height:338px; cursor:pointer;   }
+	.slider .prev{ left:0;  }
+	.slider .next{ right:0; }
+	.slider .pnBtn .blackBg{ display:block;  position:absolute; left:0; top:0; width:100%; height:497px; background:#000; filter:alpha(opacity=50);opacity:0.5;   }
+	.slider .pnBtn .arrow{ display:none; position:absolute; top:0; z-index:1; width:32px; height:497px; _filter:alpha(opacity=70); }
+	/*.slider .prev .arrow{ left:0; background:url(images/left.png) 0 center no-repeat;   }
+	.slider .next .arrow{ right:0; background:url(images/right.png) 0 center no-repeat;  }*/
+	.slider .prev .arrow{ left:0; background-color: #000000; opacity: .3;   }
+	.slider .next .arrow{ right:0;  background-color: #000000; opacity: .3;    }
+
+	</style>
+	<body>
+		
+		<div class="gouwuche">
+			<a href="gouwuche.html"><img src="img/logo004.jpg"  /></a>
+		</div>
+		<div class="top">
+		
+			<a href="#">在线客服</a>
+			<a href="#">品牌公告</a>
+			<a href="#">个人页面</a>
+			<a href="zhuce.html">注册</a>
+			<a href="denglu.html">登陆</a>
+		
+		
+		</div>
+		<div class="top2">
+			<img src="img/logo.jpg">
+			<div class="logozi"><a href="#" class="zhengpin"> 正品认证</a></div>
+			<input class="sousuokuang" type="text" name="" placeholder="搜索商品">
+			<img class="fangda" src="img/fangdajing.png">
+		</div>
+		<div class="taxian"></div>
+	
+<div class="daohang">
+
+		<a href="#">品牌简介</a>
+		<a href="shangpin.html">产品类别</a>
+		<a href="#">产品系列</a>
+		<a href="#">产品榜单</a>
+		<a href="#">社区活动</a>
+		<a href="#">店铺指南</a>
+	
+</div>
+		<div id="box">
+		<div class="slider">
+		
+		<div class="bd">
+			<ul>
+				<li><a target="_blank" href="http://www.superslide2.com"><img src="images/1.jpg" /></a></li>
+				<li><a target="_blank" href="http://www.superslide2.com"><img src="images/2.jpg" /></a></li>
+				<li><a target="_blank" href="http://www.superslide2.com"><img src="images/3.jpg" /></a></li>
+				<li><a target="_blank" href="http://www.superslide2.com"><img src="images/4.jpg" /></a></li>
+			</ul>
+		</div>
+
+		<div class="pnBtn prev">
+			<span class="blackBg"></span>
+			<span class="arrow"></span>
+		</div>
+		<div class="pnBtn next">
+			<span class="blackBg"></span>
+			<span class="arrow"></span>
+		</div>
+
+	</div>
+
+		
+		
+		
+		</div>
+		<div class="box1">
+			<div class="box2">
+		<span>BEST</span>
+		<span>ITEM</span>
+			</div>
+		</div>
+
+
+		<div id="zhong" >
+			<div id="lunbotu1">
+				<img src="img/lunbo1.jpg" alt="" />
+				<img src="img/lunbo1.1.jpg" alt="" />
+				<img src="img/lunbo1.2.jpg" alt="" />
+				<img src="img/lunbo1.3.jpg" alt="" />
+			</div>
+			<div id="lunbotu2">
+				<img src="img/lunbo2.jpg" alt="" />
+				<img src="img/lunbo2.1.jpg" alt="" />
+				<img src="img/lunbo2.2.jpg" alt="" />
+				<img src="img/lunbo2.3.jpg" alt="" />
+			</div>
+			<ul id="dian2">
+				<li></li>
+				<li></li>
+			</ul>
+			
+		</div>
+		<div class="yitiaoxian">
+			<img src="img/dianxian.jpg" />
+		</div>
+		
+		<div class="pr">
+			
+		</div>
+		<div class="zhongbutu">
+			<img src="img/zhongbutu1.jpg" />
+			<img src="img/zhongbutu2.jpg" />
+			<img src="img/zhongbutu3.jpg" />
+			<img src="img/zhongbutu4.jpg" />
+			
+			
+		</div>
+		<div class="bucunzai">
+			<div id="xiaozhong">
+				<img src="img/zhongxiao1.jpg" class="bg_01"/>
+				<img src="img/zhongxiao2.jpg" class="bg_01"/>
+				<ul>
+					<li id="tu1"><img src="img/btn_right_7.png"</li>
+					<li id="tu2"><img src="img/btn_left_7.png"</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="xiantiao">
+			
+		</div>
+		<div  class="ne">EVENT</div>
+		
+		<div class="diditu">
+			<img src="img/didi.jpg" />
+		</div>
+		<div class="shipin1">
+			<video controls width:"500" height="300" autoplay loop>
+				<source src="img/shipin.mp4"/>
+			</video>
+			
+			
+		</div>
+		
+		<div class="shengrikuaile">
+			<img src="img/shengri.jpg" />
+		</div>
+		<div class="fudong"></div>
+		
+		<div id="xiantiao2">
+			
+		</div>
+		<div class="kuangjia">
+		<div class="ziti">
+			PHOTO
+		</div> 
+		<div class="ziti1">	REVIEW
+		</div>
+		</div>
+		<div class="kouhong">
+			<img src="img/kouhong2.jpg" />
+			<div class="p1">
+				<img src="img/jiahao.png" />
+			</div>
+			<div class="p2">
+				<img src="img/xing.jpg" />
+			</div>
+			
+				<span>菲诗小铺水润触感唇部 RD03 梦幻红</br>唇</span>
+			
+			<div class="p4">
+				<p>RD03是经典大红色</br>
+				每一种颜色都各有魅力。</br>
+				但由于个人的唇色差异显色效果会有差异哦。</p>
+			</div>
+		</div>
+		
+		
+				<div class="kouhong">
+			<img src="img/kouhong1.jpg" />
+			<div class="p1">
+				<img src="img/jiahao.png" />
+			</div>
+			<div class="p2">
+				<img src="img/xing.jpg" />
+			</div>
+			
+				<span>菲诗小铺水润触感唇部CR02性感沙</br>滩</span>
+			
+			<div class="p4">
+				<p>菲诗小铺水润触感唇膏</br>
+				
+		全系列一共16个色号，单价为89元，很亲民的价位；这个系列整体润感很足，
+			颜色比较清透。。。</br>
+				
+</p>
+			</div>
+		
+		</div>
+			<div class="www11"></div>
+		
+		<div class="yitiaoxian1">
+			
+		</div>
+		
+			<ul class="hezi">
+				
+			
+			</ul>
+		</div>
+		<div class="cs">
+			<img src="img/7bc1046557c261486d32c796b43fcaa4.png" /></br>
+			<span class="span1">MOBILE</br>
+				THE FACE SHOP
+			</span>
+		</div>
+		<div class="px">
+			<p>CS CENTER</p>
+			<p>请给我们留言</br>
+			我们会尽快回复您。
+			</p>
+			<p>联系我们</p>
+		</div>
+		
+		<div class="new">
+			<div class="new1">NOTICE
+			<a href="#">more +</a>
+			<ul>
+				<li>菲诗小铺中国官方网站正式上线发布</li>
+				<li>菲诗小铺开业首发"菲常日",周周有礼！</li>
+				<li>菲诗小铺官网开业</li>
+				<li>热烈庆祝菲诗小铺中国官方网站暨官方商城盛大开业！</li>
+			</ul>
+			
+			
+			</div>
+			<div class="new2">NEW
+			<a href="#">more +</a>
+			<ul>
+				<li>有形有色——菲诗小铺全新唇膏笔，打造百变真我</li>
+				<li>当红不让，菲诗小铺新年限量版开运单品上市</li>
+				<li>看得见的精华水滴 菲诗小铺全新金润胶原蛋白系列</li>
+				<li>The Face Shop菲诗小铺携手天猫打造菲诗小铺11周年线下生活体验馆</li>
+			</ul>
+			</div>
+		</div>
+		<!--//底部-->
+	<div class="dibu">
+		<div class="dibu1">
+			<div class="dibu1_1">
+				<img src="img/fav.png" / class="nvhuang">
+				<span>作为韩国崇尚自然主义的护肤品牌，
+					THEFACESHOP秉持 “以源于自然的成分研制出高品质护肤化妆</br>品” 的品牌精髓 以大自然的治愈能量为品牌信念，创立了韩系/高端自然主义...<a href="#">更多&gt;</a>
+					
+					</br> 
+					
+				</br>公司名称 : 菲诗小铺(上海)化妆品销售有限公司 ICP号码 : 沪ICP备12046938号-2
+				</span>
+				<p>
+					<span>
+						<span class="gongzuo">工作时间 :</span> 
+						<span class="shijian">9:00~22:00（平日） 9:00~18:00（周六）</span>
+					</span>
+				</p>
+				
+				<div class="youku">
+					<a href="#"><img src="img/weibo.png"></a>
+					<a href="#"><img src="img/tianmao.png"></a>
+					
+					<a href="#"><img src="img/youku.png"></a>
+
+				</div>
+			</div>
+			
+			<div class="qingchu"></div>
+			<div class="dibu1_2">
+				<a href="#">订阅新闻报</a>
+				<input class="youxiang" type="text"  name="" placeholder="请输入邮箱地址" />
+				<input class="dingyu" type="submit" name="订阅" value="订阅"/>
+			</div>
+			
+		</div>
+		
+		<div class="zuidibu"><span>© Copyright THEFACESHOP 菲诗小铺(上海)化妆品销售有限公司 | 隐私声明  沪ICP备12046938号-2</span></div>
+		
+		
+	</div>		
+		
+	</body>	
+</html>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript" src="js/cssTools.js" ></script>
+<script type="text/javascript" src="js/move1808.js" ></script>
+<script type="text/javascript" src="js/slider.js" ></script>
+<script type="text/javascript" src="js/zijixiedejs.js"></script>
+<script type="text/javascript" src="js/lunbotu3.js"></script>
+
+<script type="text/javascript">
+	
+		
+function $(str){
+			if(str.charAt(0)=="#"){
+				return document.getElementById(str.substring(1));
+			}else if(str.charAt(0)=="."){
+				return document.getELementsByClassName(str.substring(1));
+			}else{
+				return document.getElementsByTagName(str);
+			}
+		}	
+window.onload = function(){
+	
+	
+	jQuery(".slider .bd li").first().before( jQuery(".slider .bd li").last() );
+		/* 控制左右按钮显示 */
+		jQuery(".slider .pnBtn").hover(function(){ jQuery(this).find(".arrow").show() },function(){ jQuery(this).find(".arrow").hide() });
+		/* 调用SuperSlide */
+		jQuery(".slider").slide({ mainCell:".bd ul", effect:"leftLoop",  autoPlay:true, vis:3, mouseOverStop:false });
+	//1、流程
+//	
+//	let s1 = new Slider({
+//		boxDom:$("#box"),
+//		width:1099,
+//		height:497,
+//		imgs:["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg"],
+//		btnColor:"#5c712c",
+//		btnHighColor:'#89ac2e',
+//		btnSize:10,
+//		isCircle:true,
+//		timeSpace:3000,
+//		isAutoPlay:true,
+//		
+//	});
+
+	autPlay2();
+	let lis=$("#zhong").lastElementChild.children;
+	for(var i=0;i<lis.length;i++){
+		lis[i].setAttribute("index",i);
+		lis[i].onclick =function(){
+			goimg(parseInt(this.getAttribute("index")))
+		}
+	}
+	$("#zhong").onmouseover=stop;
+	$("#zhong").onmouseout=autPlay2;
+	
+	autPlay3();
+	let liss=$("#xiaozhong").lastElementChild.children;
+	for(var i=0;i<lis.length;i++){
+		liss[i].setAttribute("index",i);
+		liss[i].onclick =function(){
+			goimg1(parseInt(this.getAttribute("index")))
+		}
+	}
+
+	$("#xiaozhong").onmouseover=stop1;
+	$("#xiaozhong").onmouseout=autPlay3;
+	 			
+			
+			
+			}
+	
+</script>

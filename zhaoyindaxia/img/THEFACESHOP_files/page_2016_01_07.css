@@ -1,0 +1,12 @@
+
+#nav .sub-navigation .left-cat {width: 75%; padding: 15px 0 30px 17px;}
+#nav .sub-navigation .right-section {width: 25%}
+#nav .sub-navigation .right-section .banner-section {width: auto}
+
+/* Menu styles */
+.left-cat .cover-left-cat a {text-decoration: none;color:#656565;}
+.left-cat .cover-left-cat a:hover {color:#9c7246}
+.left-cat .cover-left-cat .level1-cover {display:inline-block; vertical-align: top; margin-right: 5%; margin-left: 3%}
+.left-cat .cover-left-cat .level2-cover {text-align: left;}
+.left-cat .cover-left-cat .level2-cover .level2 {margin-bottom: 5px;}
+.left-cat .cover-left-cat .level1 span.cat-name-lvl1 {font-size: 16px; line-height: 60px;}

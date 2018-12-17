@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.xiangqing{
+	width:1100px;
+	height: 63px;
+	border-bottom: 2px solid #333333;
+	margin:0 auto;
+}
+
+.xiangqing span{
+	font-size: 12px;
+	color:#666666;
+	float: right;
+	line-height: 63px;
+}
+
+
+.xiangqing span:nth-child(1){
+	font-weight: 600;
+}
+
+.xuanxiangka{
+	width:500px;
+	height: 573px;
+}
+
+.shoutu img{
+	width:498px;
+	height: 474px;
+}
+
+
+.dibutu img{
+	width:100px;
+	height: 100px;
+}
+
+
+#dibutu1{
+	display: block;
+}
+
+.shoutu img{
+	display: none;
+}
+
+/*.shoutu img:nth-child(1){
+	display: block;
+}*/

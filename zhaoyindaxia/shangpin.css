@@ -1,0 +1,198 @@
+.caizhuang{
+	width:1100px;
+	height: 54px;
+	border-bottom: 2px solid #333333;
+	font-size:32px;
+	margin:0 auto;
+	
+}
+
+h3{
+	line-height: 10px;
+}
+
+
+	.caizhuang a{
+		font-size:12px;
+		color:#666666;
+		
+	 
+	}
+	
+	.caizhuang a:nth-child(3){
+		font-weight: 600;
+	}
+
+	
+ .abiaoqian{
+	    margin-left: 948px;
+   		 margin-top: -55px;
+	}
+
+	.caizhuangceng{
+		width:1104px;
+		height: 48px;
+		border-bottom: 1px solid #6d9811;
+		margin:0 auto;
+		margin-top:30px;
+	}
+	
+	.caizhuangceng a{
+		display: block;
+		float: left;
+		width:136px;
+		height: 48px;
+		border:1px solid #e1e4e8;
+		text-align: center;
+		line-height:48px ;
+		border-bottom: none;
+		color: #555555;
+	}
+	
+	.caizhuangceng a:hover{
+		background: #428915;
+		color:#FFFFFF;
+	}
+	
+	
+	.xialakuangzongceng{
+			
+				float: left;
+				margin-top:30px;
+				color: #999999;
+				border-bottom: 1px solid #9ea0a3;
+				height: 45px;
+				width:1100px;
+				margin-left:98px;
+	}
+	.xialakuangzongceng span{
+			display: block;
+	}
+	
+	span{
+		float: left;
+		margin-left: 23px;
+		color:#e8ebf0 ;
+	}
+	.zonghe{
+		float: left;
+		margin-left: 706px;
+		color: #6d9811;
+		
+	}
+	
+	.newshi{
+		float: left;
+		margin-left:18px;
+	}
+	
+	.shangpin{
+		float: left;
+			margin-left:18px;
+	}
+	
+	.xiala{
+		width:120px;
+		height: 24px;
+	}
+
+	 .xialaceng {
+		float: left;
+			margin-left:18px;
+			border: 1px solid #999999;
+	}
+
+
+	.baoguoceng{
+		width:1102px;
+		margin-top:-19px;
+		float: left;
+		margin-left:105px;
+	}
+
+
+	.diyige{
+		width:243px;
+		height:320px ;
+		border: 1px solid #e1e4e8;
+		float: left;
+		margin-left: -45px;
+	}
+
+	.dierge{
+		width:243px;
+		height:320px ;
+		border: 1px solid #e1e4e8;
+		float: left;
+		margin-left: 38px;
+	}
+
+	.disange{
+		width:243px;
+		height:320px ;
+		border: 1px solid #e1e4e8;
+		float: left;
+		margin-left: 38px;
+	}
+
+	.disige{
+		width:243px;
+		height:320px ;
+		border: 1px solid #e1e4e8;
+		float: left;
+		margin-left: 38px;
+	}
+	
+	.baoguoceng img{
+		display: block;
+		margin: auto;
+		margin-top:29px;
+		
+	}
+	
+
+	.diyige span{
+		display: block;
+		border: 1px solid #b68957;
+		color: #b68957;
+		font-size: 12px;
+		padding: 3px 5px;
+		margin-top:9px;
+}	
+	.disige span{
+		    display: block;
+		    border: 1px solid #b68957;
+		    color: #b68957;
+		    font-size: 12px;
+		    padding: 3px 5px;
+		    margin-top: 9px;
+		    /*margin-left:56px;*/
+	}
+
+	.diyige span:nth-child(2){
+		margin-left:56px;
+	}
+	.disige span:nth-child(2){
+			margin-left:56px;
+	}
+
+	.diyige .tu1_q{
+		font-size: 14px;
+		    margin-top: 60px;
+	}
+	.dierge .tu2_q{
+		font-size:14px;
+		margin-top: 45px;
+    	margin-left: 31px;
+	}
+	
+	.disange .tu3_q{
+		font-size:14px;
+		    margin-top: 47px;
+	}
+
+	.disige .tu4_q{
+		font-size: 14px;
+		margin-top:49px;
+		
+	}

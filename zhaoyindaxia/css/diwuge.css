@@ -1,0 +1,30 @@
+.zhuce1{
+	background: white;
+}
+.zhuce2{
+	background: #d1bda7;
+}
+ul li:nth-child(2) {
+    margin-left: 3px;
+    }
+    
+ul li:nth-child(3) {
+    margin-left: -472px;
+}
+
+ul{
+	margin-top:85px;
+}
+
+ul li{
+	margin-top:20px;
+}
+
+ul .tijiaoanniu{
+		background: #3b322b;
+	color: #ffffff;
+	
+}
+ul li:nth-child(4){
+	margin-left:460px;
+}

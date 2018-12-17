@@ -1,0 +1,95 @@
+body,html{
+	margin: 0;
+	
+}
+
+.dangqian{
+	font-size:12px;
+	color:#666666;
+	margin-left:82px;
+	margin-top:19px;
+}
+
+	.huiyuan{
+		margin-left:82px;
+		margin-top:20px;
+		border-radius: 5px;
+	}
+	
+	.huiyuan img{
+		    border-radius: 5px;
+	}
+
+	label{
+		margin-left:415px;
+		margin-right:10px;
+		color: #343434;
+		font-size:12px;
+	
+	}
+	
+	.shurukuang_1{
+		width:238px;
+		height: 26px;
+		border: none;
+		border:1px solid #d9d9d9;
+		border-radius: 5px;
+	}
+	ul{
+		margin-top:51px;
+	}
+	ul li{
+		margin-top:10px;
+	}
+		.shurukuang_2{
+		width:238px;
+		height: 26px;
+		border: none;
+		border:1px solid #d9d9d9;
+		border-radius: 5px;
+	}
+	
+	ul li:nth-child(2){
+		margin-left:32px;
+	}
+	
+	
+	ul li:nth-child(3){
+		text-align: center;
+
+
+
+	}
+	.tijiao{
+
+		color:#ffffff;
+		border:none;
+		width:238px;
+		height: 31px;
+		background: #5a493f;
+		border-radius: 3px;
+
+	}
+	
+	.pppp{	
+			height: 35px;
+			width:238px;
+		    margin-left: 42.4%;
+		    line-height: 10px;
+		    border-bottom: 1px #e9e9e9 solid;
+		
+		
+	}
+	.pppp a{
+    color:#5a493f;
+	}
+
+	tr td:nth-child(1){
+		font-size: 14px;
+		color:black;
+		
+	}
+
+	.liebiao{
+		margin-left:300px;
+	}

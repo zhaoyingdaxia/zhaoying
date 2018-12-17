@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>倒计时</title>
+</head>
+<body>
+		<span id="shiSpan">00</span>:
+		<span id="fenspan">00</span>:
+		<span id="miaoSpan">00</span>:
+		<span id="haomiaoSpan">00</span>
+		<br/>
+		<input type="button" value="开始" onclick="ks()" />
+		<input type="button" value="暂停" onclick="zt()" />
+		<input type="button" value="重置" onclick="cz()" />
+</body>
+</html>
+<script type="text/javascript">
+	var shi=0;
+	var fen=0;
+	var miao=0;
+	var haomiao=0;
+	function ks(){
+		setInterval(function(){
+			haomiao++;
+			if(haomiao>100){
+				miao++;
+				haomiao=0;
+				if(miao>=60){
+					fen++;
+					miao=0;
+					if(fen>60){
+						shi++;
+						fen=0;
+					}
+				}
+			}
+			document.getElementById("shiSpan").innerHTML=shi<10?"0"+shi:shi;
+			document.getElementById("fenspan").innerHTML=fen<10?"0"+fen:fen;
+			document.getElementById("miaoSpan").innerHTML=miao <10?"0"+miao:miao;
+			document.getElementById("haomiaoSpan").innerHTML=haomiao <10?"0"+haomiao:haomiao;
+		},10);
+	}
+</script>
